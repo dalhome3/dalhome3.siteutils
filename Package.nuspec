@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>dalhome3.siteutils</id>
+    <version>1.1.0</version>
+	<title>Site Utilites for SEO and robot management</title>
+    <authors>dalhome3</authors>
+    <owners>dalhome3</owners>
+	<license type="file">license\NugetLicense.txt</license>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Set of site utilities for help with SEO and other optimisations.</description>
+    <releaseNotes>First version of SiteUtils which allows the automatic generation of a Sitemap.xml</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>.net asp .netcore c#</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNetCore.Mvc.ViewFeatures" version="2.2" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="SiteUtils\bin\Release\netcoreapp2.2\SiteUtils.dll" target="lib\netcoreapp2\SiteUtils.dll" />
+	<file src="licence\NugetLicence.txt" target="license\NugetLicense.txt" />
+  </files>
+</package>

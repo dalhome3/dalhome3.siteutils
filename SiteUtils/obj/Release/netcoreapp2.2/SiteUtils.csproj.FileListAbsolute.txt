@@ -1,0 +1,9 @@
+C:\Users\daniell\source\repos\SiteUtils\SiteUtils\bin\Release\netcoreapp2.2\SiteUtils.deps.json
+C:\Users\daniell\source\repos\SiteUtils\SiteUtils\bin\Release\netcoreapp2.2\SiteUtils.dll
+C:\Users\daniell\source\repos\SiteUtils\SiteUtils\bin\Release\netcoreapp2.2\SiteUtils.pdb
+C:\Users\daniell\source\repos\SiteUtils\SiteUtils\obj\Release\netcoreapp2.2\SiteUtils.csprojAssemblyReference.cache
+C:\Users\daniell\source\repos\SiteUtils\SiteUtils\obj\Release\netcoreapp2.2\SiteUtils.csproj.CoreCompileInputs.cache
+C:\Users\daniell\source\repos\SiteUtils\SiteUtils\obj\Release\netcoreapp2.2\SiteUtils.AssemblyInfoInputs.cache
+C:\Users\daniell\source\repos\SiteUtils\SiteUtils\obj\Release\netcoreapp2.2\SiteUtils.AssemblyInfo.cs
+C:\Users\daniell\source\repos\SiteUtils\SiteUtils\obj\Release\netcoreapp2.2\SiteUtils.dll
+C:\Users\daniell\source\repos\SiteUtils\SiteUtils\obj\Release\netcoreapp2.2\SiteUtils.pdb
