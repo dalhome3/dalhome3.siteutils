@@ -2,13 +2,17 @@
 <package >
   <metadata>
     <id>dalhome3.siteutils</id>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
 	<title>Site Utilites for SEO and robot management</title>
     <authors>dalhome3</authors>
     <owners>dalhome3</owners>
+    <projectUrl>
+      https://github.com/dalhome3/dalhome3.siteutils
+    </projectUrl>
 	<license type="file">license\NugetLicense.txt</license>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Set of site utilities for help with SEO and other optimisations.</description>
+	<summary>SEO tools for asp.netcore apps!</summary>
     <releaseNotes>First version of SiteUtils which allows the automatic generation of a Sitemap.xml</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>.net asp .netcore c#</tags>
