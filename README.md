@@ -16,7 +16,40 @@ dalhome3.siteutils is designed to help with SEO optimisations starting with a si
 
   - Use reflection to autogenerate the sitemap based on class features.
 
+### Usage:
 
+From Asp.NetCore...
+```
+[Route("/Sitemap.xml")]
+public IActionResult SiteMap()
+{
+    string sitemap = dalhome3.SiteUtils.Sitemaps.Generate($"{this.Request.Scheme}://{this.Request.Host}{this.Request.PathBase}", _env.ContentRootPath);
+    return Content(sitemap, "application/xml");
+}
+```
+
+From Asp.Net MVC...
+In Route Config
+```
+routes.MapMvcAttributeRoutes();
+```
+Then in a controller
+```
+public ActionResult Sitemap()
+{
+    string sitemap = Sitemaps.Generate($"{HttpContext.Request.Url.Scheme}://{HttpContext.Request.Url.Authority}", Server.MapPath("/"));
+    return Content(sitemap, "application/xml");
+}
+```
+Finally Add this to Web.config
+```
+<system.webServer>
+   <handlers>
+     <add name="SitemapXml" path="sitemap.xml" verb="GET" type="System.Web.Handlers.TransferRequestHandler"
+        preCondition="integratedMode,runtimeVersionv4.0" />
+   </handlers>
+</system.webServer>
+```
 
 ### Tech
 

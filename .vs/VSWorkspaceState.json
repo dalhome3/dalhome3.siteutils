@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SiteUtils-NetFramework",
+    "\\SiteUtils-NetFramework\\Sitemaps",
+    "\\SiteUtils-NetFramework\\Sitemaps\\Attributes"
   ],
-  "SelectedNode": "\\nuget.exe",
+  "SelectedNode": "\\SiteUtils.sln",
   "PreviewInSolutionExplorer": false
 }
