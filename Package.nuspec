@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>dalhome3.siteutils</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
 	<title>Site Utilites for SEO and robot management</title>
     <authors>dalhome3</authors>
     <owners>dalhome3</owners>
@@ -13,15 +13,21 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Set of site utilities for help with SEO and other optimisations.</description>
 	<summary>SEO tools for asp.netcore apps!</summary>
-    <releaseNotes>First version of SiteUtils which allows the automatic generation of a Sitemap.xml</releaseNotes>
+    <releaseNotes>Added a .netframework version of the sitemapper.</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>.net asp .netcore c#</tags>
     <dependencies>
-      <dependency id="Microsoft.AspNetCore.Mvc.ViewFeatures" version="2.2" />
+		<group targetFramework="netcoreapp2">
+			<dependency id="Microsoft.AspNetCore.Mvc.ViewFeatures" version="2.2" />
+		</group>
+		<group targetFramework="net4">
+			<dependency id="Microsoft.AspNet.Mvc" version="5.2.7" />
+		</group>
     </dependencies>
   </metadata>
   <files>
 	<file src="SiteUtils\bin\Release\netcoreapp2.2\SiteUtils.dll" target="lib\netcoreapp2\SiteUtils.dll" />
+	<file src="SiteUtils-NetFramework\bin\Release\SiteUtils-NetFramework.dll" target="lib\net4\SiteUtils.dll" />
 	<file src="licence\NugetLicence.txt" target="license\NugetLicense.txt" />
   </files>
 </package>
